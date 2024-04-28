@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f1f1f1;
+}
 
 header {
     width: 100%;
-	background-color: white;
+	background-color: #f1f1f1;
     padding: 11px 0;
 	position: fixed;
 	z-index: 10;   
@@ -22,11 +25,18 @@ header {
     margin: 0 auto;
 }
 
-li{
+li { 
     display: inline-block;      
-    vertical-align: middle; 
+    vertical-align: middle;     
     margin-right: 35px;
 }
+
+a {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
 .logo{
     width: 50px;
     height: 50px;
@@ -45,6 +55,260 @@ main {
     height: 1000px; /* ეს სქროლი რომ გაუჩნდეს მაგალითისთვის დავამატე შეგიძლია წაშალო */
 }
 
-p {
+h1 {
     margin-top: 100px;
+    width: 200;
+}
+
+.trandingh {
+    font-size: 24px;
+    font-weight: 700;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.biggest{
+    display: block;
+}
+.container1 {
+    max-width: 1100px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    display: inline-block;
+}
+
+.box1 {
+    width: 362px;
+    height: 357px;
+    background-color: white;
+    margin-top: 27;
+    position: relative;
+}
+
+.box1 .pirvelipbox {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 32px;
+    left: 42px;
+}   
+
+.meorepbox {
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+    height: 36px;
+    width: 270px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #8A8787;
+}
+
+.eclipse {
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.mesamepbox {
+    color: #8A8787;
+    position: relative;
+    left: 68px;
+    bottom: 13px;
+    font-size: 12px;
+    max-width:100%;
+    height: auto;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/* */
+
+
+.container2 {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block ;
+    /* position: absolute;
+    top: 124px;
+    left: 400px; */
+    margin-top: 175px;
+    margin-left:600px;
+}
+
+.box2 {
+    width: 362px;
+    height: 357px;
+    background-color: white;
+    margin-top: 27;
+    position: relative;
+}
+
+.box2 .meoreboxp {
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 32px;
+    left: 42px;
+}   
+
+.meoreboxmeorep {
+    position: absolute;
+    left: 30px;
+    bottom: 80px;
+    height: 36px;
+    width: 270px;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #8A8787;
+}
+
+.eclipse {
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.mesamepbox2 {
+    color: #8A8787;
+    position: relative;
+    left: 68px;
+    bottom: 13px;
+    font-size: 12px;
+}
+/*  */ 
+.container3{
+    margin-top: -385px;
+    margin-left:1025px;
+    display: block;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+.happeningnow {
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.happeningnow .happeningh {
+    font-size:20px;
+    font-weight: 800;
+    margin-left: 170px;
+    display: block;
+} 
+
+.hn {
+    width: 758px;
+    height: 430px;
+    position: relative;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.hnp {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+}
+
+.hnmeore { 
+     margin-top: 50px;
+     margin-left: 170px;
+}
+.pictures {
+    display: inline-block;
+}
+
+.pictures img {
+    max-width:100%;
+    height: auto;
+    display:block;
+    margin-bottom:91px;
+    margin-left:50px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.footer{
+    background-color: #243043;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 11px 0;
+    height: 201px;
+    margin: 0 auto;
+}
+
+.footer .first {
+    font-size:12px;
+    font-weight:700;
+    color: #818687;
+    margin-left: 137px; 
+    margin-top: 59px;
+    line-height: 14px;
+}
+
+.footer .first p {
+    margin-bottom: 10px;
+}
+
+.footer .second {
+    font-size:12px;
+    font-weight:700;
+    color: #818687;
+    margin-left: 266px; 
+    margin-top: -95px;
+    line-height: 14px;
+}
+
+.footer .second p {
+    margin-bottom: 10px;
+}
+.third{
+    font-size:12px;
+    font-weight:700;
+    color: #818687;
+    margin-left: 417px; 
+    margin-top: -95px;
+    line-height: 14px;
+}
+.footer .third p{
+    margin-bottom: 10px;
+}
+.footer .fresh{
+    margin-left: 599px;
+    margin-top: -95px;
+}
+.footer .fresh p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.geolablogo{
+    position: relative;
+}
+.geolablogo img{
+    position: absolute;
+    right: 137px;
 }
